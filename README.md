@@ -27,7 +27,7 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -52,14 +52,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li>Not Applicable</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>Not Applicable</li>
   </ul>
 </details>
 
@@ -83,14 +83,9 @@
 
 In order to run this project you need:
 - Text editor like Atom or VS Code.
+- Compatible browser, Google Chrome is recommended.
+- Install Git
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -101,32 +96,24 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
-
-- cd my-project
-- gem install
-
+No installation required:
+- Clone Repository to your local machine.
 
 
 ### Usage
 
-To run the project, execute the following command:
-
-- rails server
+- Open the index.html file in your browser.
 
 
 ### Run tests
 
-To run tests, run the following command:
-
-- bin/rails test test/models/article_test.rb
+- Not applicable for this project.
 
 ### Deployment
 
-You can deploy this project using:
+You can deploy this project by following the steps provided for Setup and Usage respectively.
 
-- bin/rails test/models/article_test.rb
-- deploy
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,7 +122,7 @@ You can deploy this project using:
 👤 **Josh**
 
 - GitHub: [@githubhandle](https://github.com/joshield)
-- Twitter: [@twitterhandle](@joshdav77)
+- Twitter: [@twitterhandle](https://twitter.com/joshdav77)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/joshuaimmanuel/)
 
 
