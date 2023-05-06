@@ -1,7 +1,11 @@
-/* *,
+*,
 html {
   padding: 0;
-} */
+}
+
+body {
+  margin: 0;
+}
 
 .flex-row {
   display: flex;
@@ -12,11 +16,6 @@ html {
   display: flex;
   flex-direction: column;
 }
-
-/* * {
-  box-sizing: border-box;
-  outline: 1px solid rgb(255, 255, 255);
-} */
 
 @media only screen and (min-width: 375px) {
   .container-header {
@@ -47,9 +46,8 @@ html {
     border-radius: 8px;
   }
 
-  /* ===================================================== */
+  /* ======================mid-section starts=============================== */
 
-/* mid-section starts */
   .mid-section {
     /* position: absolute; */
     width: 100vw;
@@ -104,34 +102,25 @@ html {
     color: #fff;
   }
 
-  .social {
+  .social li {
+    justify-items: left;
     margin-top: 5px;
-    padding: 0;
-    background-color: #933e13;
-    box-sizing: border-box;
-    outline: 1px solid rgb(255, 255, 255);
+    margin-left: 5px;
   }
 
   .social-icons {
     list-style-type: none;
     display: flex;
     align-items: center;
-    flex-direction: row;
     margin: 0;
-    padding: 0;
+    padding-left: 14px;
     width: 200px;
     height: 50px;
-    background-color: #6e1f1f;
   }
 
-/* ===================================== */
-/* container-works starts */
+  /* ================container-works starts===================== */
 
   .container-works {
-    /* display: grid; */
-    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
-    /* position: relative; */
-    /* background: #E5E5E5; */
     width: 96vw;
     height: 100vh;
     margin-left: 2vw;
@@ -153,7 +142,6 @@ html {
     font-size: 40px;
     font-style: normal;
     line-height: 130%;
-    /* text-align: center; */
     margin: 10px;
   }
 
@@ -177,6 +165,7 @@ html {
   .works-1 .t {
     width: 327px;
   }
+
   .works-1 h4 {
     white-space: nowrap;
     font-family: 'Crete Round', Arial, sans-serif;
@@ -198,20 +187,10 @@ html {
     line-height: 24px;
     margin: 1%;
     border: 3px;
-    padding: 0;
   }
 
-  .languages {
+  .languages li {
     list-style-type: none;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    width: 327px;
-    height: 50px;
-    align-items: center;
-  }
-
-  .lang-li {
     box-sizing: border-box;
     outline: 1px solid #494949;
     font-family: 'Inter', Arial, sans-serif;
@@ -219,7 +198,8 @@ html {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    padding: 2%;
+    margin-left: 20px;
+    padding: 10px;
   }
 
   .see-project {
@@ -236,8 +216,8 @@ html {
     border: none;
   }
 
-  /* ========================================= */
-  /* works 2 */
+  /* ==================works 2======================= */
+
   .grid_container {
     width: 90%;
     margin-left: 5%;
@@ -251,7 +231,7 @@ html {
     margin-bottom: 10px;
     padding: 0;
     align-self: center;
-    background: #6e1f1f;
+    background: #bb2222;
     background-image: url(image/proj-img-2.png);
     background-size: cover;
     height: 386px;
@@ -261,7 +241,7 @@ html {
     box-sizing: border-box;
     width: 100%;
     padding-left: 10px;
-    margin-top: 100px;
+    margin-top: 55px;
   }
 
   .works-2 .title span {
@@ -287,12 +267,6 @@ html {
     color: #FFFFFF;
   }
 
-  li {
-    list-style-type: none;
-    margin-left: 30px;
-    padding: 10px;
-  }
-
   .works-2 li {
     color: white;
     box-sizing: border-box;
@@ -302,17 +276,18 @@ html {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+    list-style-type: none;
+    margin-left: 30px;
+    padding: 10px;
   }
-}
 
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: red;
+  .proj-btn-2 {
+    color: white;
+    background-color: #FF6B00;
+    font-size: 17px;
+    padding: 15px 32px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
   }
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
 }
